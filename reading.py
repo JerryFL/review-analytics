@@ -7,4 +7,9 @@ with open('review.txt', 'r') as f:
         if count % 1000 == 0:
         	print(len(data))
 print(len(data))
-print(data[0])
+
+sumlen = 0 
+for d in data:
+	sumlen = sumlen + len(d)
+	len(d)
+    print(sunlen)
